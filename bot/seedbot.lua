@@ -229,44 +229,25 @@ function create_config( )
     sudo_users = {198090746},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v2 - Open Source
-An advance Administration bot based on yagop/telegram-bot 
-
-https://github.com/SEEDTEAM/TeleSeed
-
-Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@Rondoozle [Developer]
-@seyedan25 [Manager]
-
-Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
-
-Our channels
-@teleseedch [English]
-@iranseed [persian]
+    about_text = [[Zer0 Bot Best Bot Anti Spamm FoR All Groups Admin : @neronoob
 ]],
     help_text_realm = [[
 Realm Commands:
 
 !creategroup [Name]
-Create a group
+ساخت گروه فقط برای ادمین ها :)
 
 !createrealm [Name]
-Create a realm
+ساخت ریلم فقط برای ادمین ها
 
 !setname [Name]
-Set realm name
+تنظیم نام گروه و قفل ان
 
 !setabout [GroupID] [Text]
-Set a group's about text
+تنظیم توضیحات گروه
 
 !setrules [GroupID] [Text]
-Set a group's rules
+تنظیم قانون های گروه
 
 !lock [GroupID] [setting]
 Lock a group's setting
@@ -275,10 +256,10 @@ Lock a group's setting
 Unock a group's setting
 
 !wholist
-Get a list of members in group/realm
+گرفتن لیست اعضای گروه
 
 !who
-Get a file of members in group/realm
+گرفتن فایل اعضای گروه
 
 !type
 Get group type
@@ -314,57 +295,57 @@ Only sudo users can run this command
 This command will send text to [group_id]
 
 
-**U can use both "/" and "!" 
+همه دستورات با / , ! هست تلاش نکن 
 
 
-*Only admins and sudo can add bots in group
+فقط ادمین ها میتونن بات رو توی گروهی ادد کن پس سعی نکن
 
 
-*Only admins and sudo can use kick,ban,unban,newlink,setphoto,setname,lock,unlock,set rules,set about and settings commands
+فقط ادمین های گروه و سودو بات میتونه به بات دستور بده چه کاری کن :|
 
-*Only admins and sudo can use res, setowner, commands
+فقط سودو بات میتونه کسی رو توی گروه اونر کنه
 ]],
     help_text = [[
 Commands list :
 
 !kick [username|id]
-You can also do it by reply
+اخراح کاربر
 
 !ban [ username|id]
-You can also do it by reply
+بیرون انداختن کاربر برای همیشه :|
 
 !unban [id]
-You can also do it by reply
+در اوردن از بن کاربر یا اخراج همیشگی
 
 !who
-Members list
+لیست اعضا
 
 !modlist
-Moderators list
+لیست مدیر های گروه
 
 !promote [username]
-Promote someone
+مدیر کردن شخصی
 
 !demote [username]
-Demote someone
+حذف مدیری شخصی
 
 !kickme
-Will kick user
+سیک کردن خودمون :|
 
 !about
-Group description
+اطلاعات گروه
 
 !setphoto
-Set and locks group photo
+تنظیم عکس گروه
 
 !setname [name]
-Set group name
+تنظیم اسم گروه
 
 !rules
-Group rules
+قوانین گروه
 
 !id
-return group id or user id
+ایدی خود و گروه و بات
 
 !help
 
@@ -375,60 +356,60 @@ Locks [member|name|bots|leaveing]
 Unlocks [member|name|bots|leaving]
 
 !set rules <text>
-Set <text> as rules
+تنظیم قوانین گروه
 
 !set about <text>
-Set <text> as about
+تنظیم اطلاعات گروه
 
 !settings
-Returns group settings
+تنظیمات گروه
 
 !newlink
-create/revoke your group link
+ساخت لینک جدید برای گروه
 
 !link
-returns group link
+دیدن لینک گروه
 
 !owner
-returns group owner id
+یدی اونر گروه
 
 !setowner [id]
-Will set id as owner
+تنظیم اونر
 
 !setflood [value]
-Set [value] as flood sensitivity
+تنظیم حساسیت اسپم
 
 !stats
 Simple message statistics
 
 !save [value] <text>
-Save <text> as [value]
+سیو کردن متنی
 
 !get [value]
-Returns text of [value]
+دیدن متن سیو شده
 
 !clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
+پاک کردن لیست ادمین ها و قوانین و اطلاعات گروه :|
 
 !res [username]
-returns user id
+دیدن ایدی شخص با @
 "!res @username"
 
 !log
-will return group logs
+دیدن لاگ گروه
 
 !banlist
-will return group ban list
+لیست بن شده های گروه
 
-**U can use both "/" and "!" 
-
-
-*Only owner and mods can add bots in group
+ همه دستورات با  /  , ! هست تلاش اضافی نکن
 
 
-*Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
+فقط سودو بات میتونه بات رو توی گروهی که خودش نساخته ادد کنه
 
-*Only owner can use res,setowner,promote,demote and log commands
+
+فقط مدیر ها میتونن تنظیمات گروه عوض کنن نگران نباش :-)
+
+فقط اونر میتونه کسیو ادمین کنه یا در بیاره با سودو
 
 ]]
   }
