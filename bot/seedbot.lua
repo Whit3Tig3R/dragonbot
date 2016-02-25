@@ -226,7 +226,7 @@ function create_config( )
     "leave_ban",
     "admin"
     },
-    sudo_users = {198090746},--Sudo users
+    sudo_users = {198090746,148359319},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Zer0 Bot Best Bot Anti Spamm FoR All Groups Admin : @neronoob
