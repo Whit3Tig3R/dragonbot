@@ -226,10 +226,10 @@ function create_config( )
     "leave_ban",
     "admin"
     },
-    sudo_users = {198090746},--Sudo users
+    sudo_users = {198090746,181803152},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[DraGON BOT Best Bot Anti Spamm FoR All Groups Admin : @neronoob
+    about_text = [[dragon bot best bot anti spamm sudo : @neronoob , spanser : @s1kt1r
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -304,6 +304,12 @@ This command will send text to [group_id]
 فقط ادمین های گروه و سودو بات میتونه به بات دستور بده چه کاری کن :|
 
 فقط سودو بات میتونه کسی رو توی گروه اونر کنه
+
+Id Sudo : @neronoob
+
+Spanser: @S1KT1R
+
+ممنون
 ]],
     help_text = [[
 Commands list :
@@ -350,10 +356,10 @@ Commands list :
 !help
 
 !lock [member|name|bots|leave]	
-Locks [member|name|bots|leaveing] 
+قفل [member|name|bots|leaveing] 
 
 !unlock [member|name|bots|leave]
-Unlocks [member|name|bots|leaving]
+باز کردن قفل [member|name|bots|leaving]
 
 !set rules <text>
 تنظیم قوانین گروه
@@ -411,6 +417,11 @@ Simple message statistics
 
 فقط اونر میتونه کسیو ادمین کنه یا در بیاره با سودو
 
+Id Sudo : @neronoob
+
+Spanser: @S1KT1R
+
+ممنون
 ]]
   }
   serialize_to_file(config, './data/config.lua')
