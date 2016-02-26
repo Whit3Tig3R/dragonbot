@@ -121,7 +121,7 @@ local function run(msg,matches)
     end
     if matches[1] == "setbotphoto" then
     	redis:set("bot:photo", "waiting")
-    	return 'Please send me bot photo now'
+    	return 'همین الان اون عکسی که میخوای برای بات سیو کنم بفرست :|'
     end
     if matches[1] == "markread" then
     	if matches[2] == "on" then
