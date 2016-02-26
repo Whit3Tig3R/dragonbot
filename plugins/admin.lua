@@ -143,11 +143,11 @@ local function run(msg,matches)
     		return "You can't block admins"
     	end
     	block_user("user#id"..matches[2],ok_cb,false)
-    	return "User blocked"
+    	return "یوزر بلاک کردم :|"
     end
     if matches[1] == "unblock" then
     	unblock_user("user#id"..matches[2],ok_cb,false)
-    	return "User unblocked"
+    	return "یوزر انبلاک کردم :|"
     end
     if matches[1] == "import" then--join by group link
     	local hash = parsed_url(matches[2])
