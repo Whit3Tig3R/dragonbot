@@ -147,7 +147,7 @@ local function run(msg, matches)
     return
   end
 
-  if matches[1]:lower() == "banlist" then -- Ban list !
+  if matches[1]:lower() == "banlist" then -- لیست بن ها !
     local chat_id = msg.to.id
     if matches[2] and is_admin(msg) then
       chat_id = matches[2] 
@@ -289,7 +289,7 @@ end
           	return false 
         end
        		unbanall_user(user_id)
-        	return 'User ['..user_id..' ] removed from global ban list'
+        	return 'User ['..user_id..' ] از سوپر بن در اومد :|'
       else
 	local cbres_extra = {
 		chat_id = msg.to.id,
@@ -301,7 +301,7 @@ end
 		res_user(username, kick_ban_res, cbres_extra)
       end
   end
-  if matches[1]:lower() == "gbanlist" then -- Global ban list
+  if matches[1]:lower() == "gbanlist" then -- لیست سوپر بن ها
     return banall_list()
   end
 end
