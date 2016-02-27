@@ -209,6 +209,7 @@ function create_config( )
   config = {
     enabled_plugins = {
     "onservice",
+    "welcome",
     "inrealm",
     "ingroup",
     "inpm",
