@@ -262,37 +262,37 @@ Unock a group's setting
 گرفتن فایل اعضای گروه
 
 !type
-Get group type
+گرفتن تایپ
 
 !kill chat [GroupID]
-Kick all memebers and delete group
+پاک کردن گروه
 
 !kill realm [RealmID]
-Kick all members and delete realm
+پاک کردن ریلم
 
 !addadmin [id|username]
-Promote an admin by id OR username *Sudo only
+اضافه کردن ادمین
 
 !removeadmin [id|username]
-Demote an admin by id OR username *Sudo only
+حذف ادمین
 
 !list groups
-Get a list of all groups
+لیست همه گروه ها
 
 !list realms
-Get a list of all realms
+لیست همه ریلم ها
 
 !log
-Grt a logfile of current group or realm
+گرفتن لاگ
 
 !broadcast [text]
 !broadcast Hello !
-Send text to all groups
-Only sudo users can run this command
+سند متن به همه گروه ها
+فقط سودو ها میتونن
 
 !bc [group_id] [text]
 !bc 123456789 Hello !
-This command will send text to [group_id]
+ارسال متن فقط به یک گروه
 
 
 همه دستورات با / , ! هست تلاش نکن 
@@ -308,6 +308,8 @@ This command will send text to [group_id]
 Id Sudo : @neronoob
 
 Spanser: @S1KT1R
+
+Channel : @DraG0NB0T
 
 ممنون
 ]],
@@ -420,6 +422,8 @@ Simple message statistics
 Id Sudo : @neronoob
 
 Spanser: @S1KT1R
+
+Channel : @DraG0NB0T
 
 ممنون
 ]]
